@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "f427b2c0"
+  },
+  "intro.qmd": {
+    "intro.html": "984c3a5c"
+  },
+  "summary.qmd": {
+    "summary.html": "c951d74e"
+  },
+  "references.qmd": {
+    "references.html": "d0c1db1d"
+  },
+  "workbooks/001_Setup.ipynb": {
+    "001_Setup.html": "a7b4e97e"
+  },
+  "workbooks/002_Describing_One_Variable_sol.ipynb": {
+    "002_Describing_One_Variable_sol.html": "1ba1cfb4"
+  }
+}

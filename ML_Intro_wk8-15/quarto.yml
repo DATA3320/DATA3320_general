@@ -1,0 +1,52 @@
+project:
+  type: book
+book:    
+  author: "Akeem Semper"
+  date: "01-Apr-2023"
+  title: "ML_Intro_Q_source"
+  chapters:
+    - index.qmd
+    - workbooks/001_Setup.ipynb
+    - workbooks/002_Describing_One_Variable_sol.ipynb
+    - workbooks/003_Distributions_sol.ipynb
+    - workbooks/004_Var_EDA_Example_sol.ipynb
+    - workbooks/005_Errors_and_Residuals_sol.ipynb
+    - workbooks/006_linear_least_squares_sol.ipynb
+    - workbooks/007_regression_sol.ipynb
+    - workbooks/008_Multiple_Regression_sol.ipynb
+    - workbooks/009_Logistic_Reg_sol.ipynb
+    - workbooks/010_EDA_LinReg_1hot_nonLinear_sol.ipynb
+    - workbooks/011_NonLinear_Pipeline_sol.ipynb
+    - workbooks/012_Logistic_Regression_2_Scaling_sol.ipynb
+    - workbooks/013_tree_sol.ipynb
+    - workbooks/014_pipeline_impute_sol.ipynb
+    - workbooks/015_grid_ensembles_sol.ipynb
+    - references.qmd
+
+toc: true
+number-sections: true
+jupyter: python3
+execute: 
+  enabled: true
+
+format:
+  html:
+    output-dir: _output
+    css: styles.css
+    html-math-method: katex
+    theme:
+      light: flatly
+      dark: darkly
+    code-copy: true
+    code-fold: true
+    execute: 
+      enabled: true
+      echo: false
+    anchor-sections: true
+    smooth-scroll: true
+  pdf:
+    documentclass: scrreport
+  epub:
+    cover-image: cover.png
+  docx:
+    highlight-style: github
